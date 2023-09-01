@@ -1,7 +1,7 @@
 from flask import Flask, render_template, jsonify, request
 import loads, model, tensorflow as tf
 import os
-from datetime import timedelta
+
 
 app = Flask(__name__, template_folder='templates/')
 app.static_folder = 'static'
